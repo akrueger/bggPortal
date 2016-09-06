@@ -36,7 +36,7 @@ module.exports = {
 	],
 	devtool: 'cheap-module-source-map',
 	entry: {
-		app: ['./src/main.jsx']
+		app: ['./src/Main.jsx']
 	},
 	output: {
 		path: path.resolve(__dirname, 'dist'),

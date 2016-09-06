@@ -14,7 +14,7 @@ module.exports = {
 			}
 		}
 	},
-	entry: './src/main.jsx',
+	entry: './src/Main.jsx',
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		filename: 'bundle.js'

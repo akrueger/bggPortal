@@ -7,4 +7,3 @@ rethinkdb_data/
 *.json
 bundle.js
 .eslintcache
-
