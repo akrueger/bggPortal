@@ -1,5 +1,13 @@
-build/
+dist/
 json/
 backupJSON/
 node_modules/
 README.md
+readArray.js
+test.js
+cronFetch.js
+bggSingleGameCall.js
+bggGetGamesList.js
+bggAPI.js
+bgg.js
+testRethink.js

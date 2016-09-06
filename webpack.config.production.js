@@ -39,7 +39,7 @@ module.exports = {
 		app: ['./src/main.jsx']
 	},
 	output: {
-		path: path.resolve(__dirname, 'build'),
+		path: path.resolve(__dirname, 'dist'),
 		filename: 'bundle.js'
 	},
 	module: {

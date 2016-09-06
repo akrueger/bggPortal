@@ -6,11 +6,17 @@ const jeet = require('jeet')
 module.exports = {
 	devtool: 'eval-source-map',
 	devServer: {
-		contentBase: './build',
+		contentBase: './dist',
+		proxy: {
+			'*': {
+				target: 'http://localhost:8181',
+				secure: false
+			}
+		}
 	},
 	entry: './src/main.jsx',
 	output: {
-		path: path.resolve(__dirname, 'build'),
+		path: path.resolve(__dirname, 'dist'),
 		filename: 'bundle.js'
 	},
 	plugins: [
